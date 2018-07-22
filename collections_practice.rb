@@ -32,7 +32,7 @@ end
 
 def kesha_maker(array)
   array.each do |string|
-    string = string.splice(3,1,"$")
+    string = string.splice(2,1,"$")
   end
   array
 end
