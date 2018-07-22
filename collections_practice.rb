@@ -37,4 +37,14 @@ def kesha_maker(array)
   array
 end
 
-
+def find_a(array)
+  myArray = []
+  array.each do |string|
+    if string[0] == "a"
+      myArray << string
+    else
+      continue
+    end
+  end
+  myArray
+end
